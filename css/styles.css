@@ -1035,6 +1035,7 @@ form select {
 .slider {
   position: relative;
   margin: 12px;
+  margin-bottom: 194px;
 }
 .slider img {
   width: 100%;

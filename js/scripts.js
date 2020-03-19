@@ -91,9 +91,9 @@ $(document).ready(function() {
 
 });
 $(document).ready(function() {
-    $('.slick-honeymoon').slick({
-        slidesToShow: 2,
-        // slidesToScroll: 2,
+    $('.slide-honeymoon').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
         // autoplay: true,
         autoplaySpeed: 4000,
         arrows: false,
@@ -101,11 +101,19 @@ $(document).ready(function() {
     });
 
 });
-(document).ready(function() {
-    $('.slick-descriptin').slick({
+// (document).ready(function() {
+//     $('.slide-descriptin').slick({
+//         arrows: true,
+//         dots: false,
+//         slidesToShow: 1,
+//     });
+
+// });
+$(document).ready(function() {
+    $('.slide-description').slick({
+        slidesToShow: 1,
         arrows: true,
         dots: false,
-        slidesToShow: 1,
     });
 
 });

@@ -1,0 +1,127 @@
+.see {
+    height: 100%;
+}
+
+.see .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url("../media/populer-place.png");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 110px;
+}
+
+.heading h2 {
+    margin-top: 45px;
+    font-size: 30px;
+    font-family: opensans-bold;
+    color: #333333;
+    text-align: center;
+}
+
+.heading p {
+    font-size: 16px;
+    font-family: opensans-regular;
+    color: #333333;
+    text-align: center;
+    max-width: 660px;
+    line-height: 2;
+    word-spacing: 5;
+    padding-top: 33px;
+    margin: 0 auto;
+}
+
+.norway {
+    position: relative;
+    img {
+        width: 100%;
+        height: 580px;
+        object-fit: cover;
+    }
+}
+
+.country {
+    width: 470px;
+    height: 205px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 21px 0px rgba(50, 50, 50, 0.4);
+    background-color: #fbfbfb74;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-100px);
+}
+
+.country-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.country p {
+    font-size: 24px;
+    font-family: opensans-bold;
+    color: rgba(0, 0, 0, 0.972);
+    text-align: center;
+    line-height: 3;
+}
+
+.social-norway {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    border: 1px solid #ffdd00;
+    width: 194px;
+    height: 38px;
+}
+
+.social-norway a {
+    color: #ffdd00;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #ffdd00;
+    height: 16px;
+    padding: 11px;
+}
+
+.social-norway a:last-child {
+    border-right: none;
+}
+
+.slick-prev,
+.slick-next {
+    z-index: 1002;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    font-size: 40px;
+}
+
+.slick-prev {
+    left: 145px;
+}
+
+.slick-next {
+    right: 145px;
+}
+
+.slick-dots {
+    bottom: 140px;
+}

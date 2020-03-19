@@ -1,0 +1,54 @@
+@font-face {
+    font-family: opensans-bold;
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: opensans-light;
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: opensans-regular;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: opensans-semibold;
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Myriad";
+    src: url("../fonts/MyriadProRegular.ttf");
+}
+
+body {
+    background-color: #fff;
+    font-size: 16px;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    // box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}

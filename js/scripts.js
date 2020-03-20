@@ -122,10 +122,8 @@ function start() {
     $('#countdown_dashboard').startCountDown();
 }
 
-// $(document).ready(function() {
+
 $('.slide-hurry').slick({
     arrows: true,
     dots: false,
 });
-
-// });

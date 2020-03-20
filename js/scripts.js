@@ -106,7 +106,7 @@ $(document).ready(function() {
         dots: false,
     });
 
-    $('#countdown_dashboard').startCountDown({
+    $('#countdown_dashboard').countdown({
         targetOffset: {
             'day': 360, //число
             'month': 0, //месяц
@@ -118,7 +118,9 @@ $(document).ready(function() {
     });
 });
 
-// $('#countdown_dashboard').startCountDown();
+function start() {
+    $('#countdown_dashboard').startCountDown();
+}
 
 // $(document).ready(function() {
 $('.slide-hurry').slick({

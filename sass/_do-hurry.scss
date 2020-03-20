@@ -1,0 +1,184 @@
+.hurry {
+    background-color: #f9f9f9;
+    height: 100%;
+}
+
+.hurry .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket {
+    margin: 0 auto;
+    text-align: center;
+    transition-duration: .5s;
+    h2 {
+        font-size: 30px;
+        color: #000;
+        font-family: opensans-bold;
+        text-transform: uppercase;
+        line-height: 3;
+    }
+    p {
+        font-size: 15px;
+        font-family: opensans-light;
+        color: #000;
+        max-width: 735px;
+        line-height: 2;
+    }
+    button {
+        background: none;
+        width: 170px;
+        height: 45px;
+        background-color: #fff;
+        color: #fbad03;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: opensans-bold;
+        border: 1px solid #fbad03;
+        border-radius: 25px;
+        margin-top: 60px;
+    }
+}
+
+button:hover {
+    font-size: 16px;
+    box-shadow: 0px -5px 19px 0px rgba(50, 50, 50, 0.48);
+    transform: translateY(5px);
+    ;
+}
+
+.counter {
+    margin-top: 60px;
+    margin-left: 265px;
+}
+
+#countdown_dashboard {
+    // height: 96px;
+    // margin-left: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dash {
+    font-size: 36px;
+    font-family: roboto-bold;
+    width: 190px;
+    // height: 96px;
+    // background: transparent url('../images/dash.png') 0 0 no-repeat;
+    // float: left;
+    position: relative;
+    margin: 0 auto;
+}
+
+.dash:nth-child(1) {
+    color: #fbad03;
+}
+
+.dash:nth-child(2) {
+    color: #ef6f6c;
+}
+
+.dash:nth-child(3) {
+    color: #28c190;
+}
+
+.dash:nth-child(4) {
+    color: #474747;
+}
+
+.days_dash {
+    // background: transparent url('../images/dark_days_dash.png') 0 0 no-repeat;
+}
+
+.hours_dash {
+    // clear: left;
+    // background: transparent url('../images/dark_hours_dash.png') 0 0 no-repeat;
+}
+
+.minutes_dash {
+    // background: transparent url('../images/dark_minutes_dash.png') 0 0 no-repeat;
+}
+
+.seconds_dash {
+    // background: transparent url('../images/dark_seconds_dash.png') 0 0 no-repeat;
+}
+
+.dash .digit {
+    font-size: 36px;
+    font-family: roboto-bold;
+    font: bold 36pt Verdana;
+    float: left;
+    width: 59px;
+    text-align: center;
+    position: relative;
+}
+
+.dash_title {
+    font-size: 16px;
+    font-family: roboto-medium;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+// span:nth-childe(3) {
+//     text-transform: capitalize;
+// }
+.slider-hurry {
+    max-width: 770px;
+    max-height: 300px;
+    box-shadow: 0px -5px 19px 0px rgba(50, 50, 50, 0.26);
+    transform: translateY(150px);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.slide-sale img {
+    max-height: 300px;
+    width: 100%;
+}
+
+.hurry-sale {
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    // padding: 5px;
+    padding: 5px 15px;
+    h3 {
+        font-size: 24px;
+        font-family: opensans-semibold;
+        color: #000;
+        line-height: 2;
+    }
+    p {
+        font-size: 16px;
+        font-family: opensans-regular;
+        color: #000;
+        line-height: 2;
+    }
+    p:last-of-type {
+        font-size: 40px;
+        font-family: opensans-semibold;
+        color: #fbad03;
+    }
+}
+
+.get-ticket button {
+    border: none;
+    background: none;
+    width: 170px;
+    height: 45px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: opensans-bold;
+    background-color: #fcbd35;
+    color: #fff;
+    transform: rotate(-90deg);
+}

@@ -59,9 +59,7 @@ $(document).ready(function() {
         ]
     });
 
-});
 
-$(document).ready(function() {
     $('.slide-norway').slick({
         arrows: true,
         dots: true,
@@ -101,19 +99,31 @@ $(document).ready(function() {
     });
 
 });
-// (document).ready(function() {
-//     $('.slide-descriptin').slick({
-//         arrows: true,
-//         dots: false,
-//         slidesToShow: 1,
-//     });
-
-// });
 $(document).ready(function() {
-    $('.slide-description').slick({
-        slidesToShow: 1,
+    $('.slider-descriptin').slick({
+        // slidesToShow: 1,
         arrows: true,
         dots: false,
     });
 
+    $('#countdown_dashboard').startCountDown({
+        targetOffset: {
+            'day': 360, //число
+            'month': 0, //месяц
+            'year': 0, //год           
+            'hour': 30, //часов
+            'min': 1, //минут
+            'sec': 1 //секунд
+        }
+    });
 });
+
+// $('#countdown_dashboard').startCountDown();
+
+// $(document).ready(function() {
+$('.slide-hurry').slick({
+    arrows: true,
+    dots: false,
+});
+
+// });

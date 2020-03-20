@@ -29,7 +29,7 @@
         font-size: 38px;
         color: #000;
         font-family: opensans-bold;
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
     p:nth-child(3) {
         font-size: 15px;
@@ -54,7 +54,7 @@
         width: 142px;
         height: 42px;
         font-size: 16px;
-        transform: translateY(10px);
+        // transform: translateY(10px);
         box-shadow: -1px -8px 17px 0px rgba(50, 50, 50, 0.39);
     }
 }

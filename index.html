@@ -49,7 +49,7 @@
                         <button>register</button>
                     </div>
                 </div>
-                <div class="header-bottom">
+                <div id="header-menu" class="header-bottom">
                     <a href="#"> <img src="./media/dreams.png" alt="logo img"> </a>
                     <nav class="nav-container">
                         <ul>
@@ -57,21 +57,20 @@
                                 <a href="#">Home</a>
                             </li>
                             <li>
-                                <a href="#">tours</a>
+                                <a href="#honeymoon-marker">tours</a>
                             </li>
                             <li>
-                                <a href="#">package</a>
+                                <a href="#descriptin-marker">package</a>
                             </li>
                             <li>
-                                <a href="#">Blog</a>
+                                <a href="#blog-marker">Blog</a>
                             </li>
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="#footer-marker">Contact</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-
             </div>
         </header>
         <section class="wr-about">
@@ -360,6 +359,7 @@
 
     </section>
     <section class="honeymoon">
+        <a name="honeymoon-marker"></a>
         <div class="container">
             <div class="about-honeymoon">
                 <h2>Destinations for Honeymoon</h2>
@@ -565,11 +565,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </section>
     <section class="descriptin">
+        <a name="descriptin-marker"></a>
         <div class="container">
             <div class="descriptin-discount">
                 <p><span>50%</span> OFF Discount 10-30% Off</p>
@@ -601,28 +600,22 @@
                 <button><span>&rarr;</span>Get ticket</button>
             </div>
             <div class="counter">
-                <div id="countdown_dashboard">
-                    <div class="dash days_dash">
-                        <div class="digit">3</div>
-                        <div class="digit">6</div>
-                        <div class="digit">0</div>
-                        <span class="dash_title">Days</span>
+                <div id="countdown" class="countdown">
+                    <div class="countdown-number">
+                        <span class="days countdown-time"></span>
+                        <span class="countdown-text">Days</span>
                     </div>
-                    <div class="dash hours_dash">
-                        <div class="digit">3</div>
-                        <div class="digit">0</div>
-                        <span class="dash_title">Hours</span>
+                    <div class="countdown-number">
+                        <span class="hours countdown-time"></span>
+                        <span class="countdown-text">Hours</span>
                     </div>
-
-                    <div class="dash minutes_dash">
-                        <div class="digit">0</div>
-                        <div class="digit">1</div>
-                        <span class="dash_title">Minutes</span>
+                    <div class="countdown-number">
+                        <span class="minutes countdown-time"></span>
+                        <span class="countdown-text">Minutes</span>
                     </div>
-                    <div class="dash seconds_dash">
-                        <div class="digit">0</div>
-                        <div class="digit">1</div>
-                        <span class="dash_title">Second</span>
+                    <div class="countdown-number">
+                        <span class="seconds countdown-time"></span>
+                        <span class="countdown-text">Seconds</span>
                     </div>
                 </div>
             </div>
@@ -695,6 +688,7 @@
         </div>
     </section>
     <section class="blog">
+        <a name="blog-marker"></a>
         <div class="container">
             <div class="look-blog">
                 <div>
@@ -833,6 +827,7 @@
         </div>
     </section>
     <footer>
+        <a name="footer-marker"></a>
         <div class="container">
             <div class="footer-menu">
                 <div>
@@ -891,7 +886,7 @@
     </footer>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script> -->
     <script src="./js/jquery.js "></script>
-    <script src="./js/countdown.jquery.js "></script>
+    <!-- <script src="./js/countdown.jquery.js "></script> -->
     <script src="./slick/slick.min.js "></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js "></script> -->
     <script src="./js/scripts.js "></script>

@@ -50,80 +50,76 @@ button:hover {
     // transform: translateY(5px);
 }
 
+// counter
 .counter {
-    margin-top: 60px;
-    margin-left: 265px;
+    margin-top: 70px;
 }
 
-#countdown_dashboard {
-    // height: 96px;
-    // margin-left: 125px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.dash {
-    font-size: 36px;
+.countdown {
     font-family: roboto-bold;
-    width: 190px;
-    // height: 96px;
-    // background: transparent url('../images/dash.png') 0 0 no-repeat;
-    // float: left;
-    position: relative;
+    font-size: 36px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 690px;
 }
 
-.dash:nth-child(1) {
+.countdown-number {
+    padding: 10px;
+    display: inline-block;
+}
+
+.countdown-time {
+    padding: 15px;
+    display: inline-block;
+}
+
+.countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: roboto-medium;
+}
+
+.countdown-number .days {
     color: #fbad03;
 }
 
-.dash:nth-child(2) {
+.countdown-number:nth-child(1) {
+    color: #fbad03;
+    text-transform: uppercase;
+}
+
+.countdown-number .hours {
     color: #ef6f6c;
 }
 
-.dash:nth-child(3) {
+.countdown-number:nth-child(2) {
+    color: #ef6f6c;
+    text-transform: uppercase;
+}
+
+.countdown-number .minutes {
     color: #28c190;
 }
 
-.dash:nth-child(4) {
-    color: #474747;
+.countdown-number:nth-child(3) {
+    color: #28c190;
 }
 
-.days_dash {
-    // background: transparent url('../images/dark_days_dash.png') 0 0 no-repeat;
+.countdown-number .seconds {
+    color: #333333;
 }
 
-.hours_dash {
-    // clear: left;
-    // background: transparent url('../images/dark_hours_dash.png') 0 0 no-repeat;
+.countdown-number:nth-child(4) {
+    color: #333333;
 }
 
-.minutes_dash {
-    // background: transparent url('../images/dark_minutes_dash.png') 0 0 no-repeat;
-}
-
-.seconds_dash {
-    // background: transparent url('../images/dark_seconds_dash.png') 0 0 no-repeat;
-}
-
-.dash .digit {
-    font-size: 36px;
-    font-family: roboto-bold;
-    font: bold 36pt Verdana;
-    float: left;
-    width: 59px;
-    text-align: center;
-    position: relative;
-}
-
-.dash_title {
-    font-size: 16px;
-    font-family: roboto-medium;
-    text-transform: uppercase;
-    padding-left: 20px;
-}
-
+// clider
 .slide-hurry {
     margin: 0 auto;
     padding: 4px;

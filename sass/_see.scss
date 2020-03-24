@@ -106,13 +106,25 @@
 .slick-prev,
 .slick-next {
     z-index: 1002;
-    width: 40px;
-    height: 40px;
+    width: 17px;
+    height: 28px;
 }
 
 .slick-prev::before,
 .slick-next::before {
-    font-size: 40px;
+    display: none;
+}
+
+.slick-prev,
+.slick-prev:hover,
+.slick-prev:focus {
+    background-image: url("../media/slider-left-btn.png");
+}
+
+.slick-next,
+.slick-next:hover,
+.slick-next:focus {
+    background-image: url("../media/slider-right-btn.png");
 }
 
 .slick-prev {

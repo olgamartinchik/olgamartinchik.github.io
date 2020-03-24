@@ -16,7 +16,8 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-     margin-bottom: 36px;
+     margin-bottom: 95px;
+     //  margin-bottom: 36px;
  }
  
  .social-container {
@@ -76,6 +77,11 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
+     position: fixed;
+     width: 1170px;
+     margin-top: 55px;
+     padding-top: 27px;
+     z-index: 1100;
  }
  
  .header-bottom img {
@@ -300,6 +306,13 @@
  //  form select:focus option {
  //      color: grey;
  //  }
+ .where p,
+ .which p,
+ .check-in p,
+ .check-out p {
+     text-align: left;
+ }
+ 
  form select {
      -moz-appearance: none;
      -webkit-appearance: none;

@@ -1,19 +1,21 @@
         .populer {
-            height: 100vh;
-            height: 100%;
+            background-image: url("../media/populer.png");
+            background-position: center;
+            background-size: cover;
         }
         
         .populer .container {
             justify-content: center;
             flex-direction: column;
             margin: 0 auto;
+            padding-top: 80px;
+            padding-bottom: 80px;
             // align-items: center;
         }
         
         .popular-place {
             display: flex;
             flex-direction: column;
-            margin-top: 307px;
             p {
                 font-size: 14px;
                 font-family: opensans-semibold;
@@ -34,13 +36,12 @@
         
         .slide-place {
             // margin-bottom: 55px;
-            margin-top: 105px;
         }
         
         .slider {
             position: relative;
             margin: 12px;
-            margin-bottom: 194px;
+            margin-bottom: 20px;
             img {
                 width: 100%;
                 height: 100%;
@@ -133,4 +134,8 @@
         
         .slick-dotted.slick-slider {
             margin-bottom: 0;
+        }
+        
+        .slider-place .slick-dots ul {
+            top: 200px;
         }

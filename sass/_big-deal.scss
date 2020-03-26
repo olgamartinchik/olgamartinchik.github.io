@@ -1,23 +1,18 @@
 .big-deal {
     margin: 0 auto;
-    background-image: url("../media/background-posst.jpg");
-    max-width: 1170px;
-    margin-bottom: 290px;
 }
 
 .big-deal .container {
+    background-image: url("../media/background-posst.jpg");
     height: 458px;
-    // margin: 0 auto;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 form {
-    padding-top: 80px;
-    padding-bottom: 60px;
-    margin-bottom: 143px;
+    padding: 70px;
     h2 {
         font-size: 30px;
         font-family: opensans-bold;
@@ -51,13 +46,17 @@ form {
     }
 }
 
+.promo-video {
+    margin-top: -150px;
+}
+
 .video {
+    margin: 0 auto;
     display: flex;
-    position: absolute;
-    bottom: -165px;
-    // left: 50%;
-    // transform: translateY(165px);
+    position: relative;
+    // bottom: 165px;
     video {
+        margin: 0 auto;
         max-width: 630px;
         max-height: 330px;
     }

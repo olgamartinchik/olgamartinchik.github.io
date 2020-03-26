@@ -18,36 +18,23 @@
         <header>
             <div class="container">
                 <div class="header-top">
-                    <ul class="social-container">
-                        <!-- <a href="#"><i><i class="fab fa-facebook-f"></i></i></a>
+                    <div class="social-container">
+                        <a href="#"><i><i class="fab fa-facebook-f"></i></i></a>
                         <a href="#"><i><i class="fab fa-pinterest"></i></i></a>
                         <a href="#"><i><i class="fab fa-instagram"></i></i></a>
                         <a href="#"><i><i class="fab fa-twitter"></i></i></a>
-                        <a href="#"><i><i class="fab fa-google-plus-g"></i></i></a> -->
-                        <li>
-                            <a href="#"><img src="./media/facebook-icon.png" alt="facebook img"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="./media/linkedin-icon.png" alt="linkedin img"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="./media/instagram-icon.png" alt="instagram img"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="./media/twitter-icon.png" alt="twitter img"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="./media/google-icon.png" alt="google img"></a>
-                        </li>
-                    </ul>
+                        <a href="#"><i><i class="fab fa-google-plus-g"></i></i></a>
+                    </div>
+
                     <div class="address">
                         <img src="./media/address.png" alt="address img">
                         <p>1835 73rd Ave NE, Medina, Washington, USA.</p>
+                        <div class="login">
+                            <button>login</button>
+                            <button>register</button>
+                        </div>
                     </div>
-                    <div class="login">
-                        <button>login</button>
-                        <button>register</button>
-                    </div>
+
                 </div>
                 <div id="header-menu" class="header-bottom">
                     <a href="#"> <img src="./media/dreams.png" alt="logo img"> </a>
@@ -71,6 +58,21 @@
                         </ul>
                     </nav>
                 </div>
+                <!-- <button>burger</button>
+                <div class="mob-menu">
+                    <nav></nav>
+                    <div class="login">
+                        <button>login</button>
+                        <button>register</button>
+                    </div>
+                <div class="social-container">
+                    <a href="#"><i><i class="fab fa-facebook-f"></i></i></a>
+                    <a href="#"><i><i class="fab fa-pinterest"></i></i></a>
+                    <a href="#"><i><i class="fab fa-instagram"></i></i></a>
+                    <a href="#"><i><i class="fab fa-twitter"></i></i></a>
+                    <a href="#"><i><i class="fab fa-google-plus-g"></i></i></a>
+                </div> -->
+            </div>
             </div>
         </header>
         <section class="wr-about">
@@ -85,17 +87,18 @@
                 </div>
             </div>
         </section>
-        <section class="wr-table">
-            <div class="container">
-                <div class="table-header">
-                    <a href="#hotel" data-tab="hotel" class="b-nav-tab active">Hotel</a>
-                    <a href="#tours" data-tab="tours" class="b-nav-tab">Tours</a>
-                    <a href="#package" data-tab="package" class="b-nav-tab">Package</a>
-                    <div id="hotel" class="b-tab active">
-                        <form class="package" action="">
-                            <div class="where">
-                                <p> <label for="option">where?</label></p>
-                                <select id="option" name="option">
+    </section>
+    <section class="wr-table">
+        <div class="container">
+            <div class="table-header">
+                <button data-tab="hotel" class="b-nav-tab active">Hotel</button>
+                <button data-tab="tours" class="b-nav-tab">Tours</button>
+                <button data-tab="package" class="b-nav-tab">Package</button>
+                <div id="hotel" class="b-tab active">
+                    <form class="package" action="">
+                        <div class="where">
+                            <p> <label for="option">where?</label></p>
+                            <select id="option" name="option">
                                     <option value="Choose location" hidden disabled selected>Choose location</option>
                            <option disabled selected>Choose location</option>
                            <option >Lorem ipsum</option>
@@ -103,103 +106,102 @@
                            <option >Lorem ipsum</option>
                            <option >Lorem ipsum</option>
                            </select>
-                            </div>
-                            <div class="which">
-                                <p> <label for="option">which?</label></p>
-                                <select id="option" name="option">
+                        </div>
+                        <div class="which">
+                            <p> <label for="option">which?</label></p>
+                            <select id="option" name="option">
                                 <option disabled selected>Choose City</option>
                                 <option >Lorem ipsum</option>
                                 <option >Lorem ipsum</option>
                                 <option >Lorem ipsum</option>
                                 <option >Lorem ipsum</option>
                                 </select>
-                            </div>
-                            <div class="check-in">
-                                <p> <label for="date-one">check-in</label></p>
-                                <input id="date-one" type="date" value="date">
-                            </div>
-                            <div class="check-out">
-                                <p> <label for="date-two">check-out</label></p>
-                                <input id="date-two" type="date" value="date">
-                            </div>
-                            <div class="submit">
-                                <input type="submit" name="submit" value="search">
-                            </div>
-                        </form>
-                    </div>
-                    <div id="tours" class="b-tab">
-                        <form class="package" action="">
-                            <div class="where">
-                                <p> <label for="option">where?</label></p>
-                                <select id="option" name="option">
+                        </div>
+                        <div class="check-in">
+                            <p> <label for="date-one">check-in</label></p>
+                            <input id="date-one" type="date" value="date">
+                        </div>
+                        <!-- <div class="check-out">
+                            <p> <label for="date-two">check-out</label></p>
+                            <input id="date-two" type="date" value="date">
+                        </div> -->
+                        <div class="submit">
+                            <input type="submit" name="submit" value="search">
+                        </div>
+                    </form>
+                </div>
+                <div id="tours" class="b-tab">
+                    <form class="package" action="">
+                        <!-- <div class="where">
+                            <p> <label for="option">where?</label></p>
+                            <select id="option" name="option">
                            <option disabled selected>Choose location</option>
                            <option >Lorem ipsum</option>
                            <option >Lorem ipsum</option>
                            <option >Lorem ipsum</option>
                            <option >Lorem ipsum</option>
                            </select>
-                            </div>
-                            <div class="which">
-                                <p> <label for="option">which?</label></p>
-                                <select id="option" name="option">
+                        </div> -->
+                        <div class="which">
+                            <p> <label for="option">which?</label></p>
+                            <select id="option" name="option">
                                 <option disabled selected>Choose City</option>
                                 <option >Lorem ipsum</option>
                                 <option >Lorem ipsum</option>
                                 <option >Lorem ipsum</option>
                                 <option >Lorem ipsum</option>
                                 </select>
-                            </div>
-                            <div class="check-in">
-                                <p> <label for="date-one">check-in</label></p>
-                                <input id="date-one" type="date" value="date">
-                            </div>
-                            <div class="check-out">
-                                <p> <label for="date-two">check-out</label></p>
-                                <input id="date-two" type="date" value="date">
-                            </div>
-                            <div class="submit">
-                                <input type="submit" name="submit" value="search">
-                            </div>
-                        </form>
-                    </div>
-                    <div id="package" class="b-tab">
-                        <form class="package" action="">
-                            <div class="where">
-                                <p> <label for="option">where?</label></p>
-                                <select id="option" name="option">
+                        </div>
+                        <div class="check-in">
+                            <p> <label for="date-one">check-in</label></p>
+                            <input id="date-one" type="date" value="date">
+                        </div>
+                        <div class="check-out">
+                            <p> <label for="date-two">check-out</label></p>
+                            <input id="date-two" type="date" value="date">
+                        </div>
+                        <div class="submit">
+                            <input type="submit" name="submit" value="search">
+                        </div>
+                    </form>
+                </div>
+                <div id="package" class="b-tab">
+                    <form class="package" action="">
+                        <div class="where">
+                            <p> <label for="option">where?</label></p>
+                            <select id="option" name="option">
                            <option disabled selected>Choose location</option>
                            <option >Lorem ipsum</option>
                            <option >Lorem ipsum</option>
                            <option >Lorem ipsum</option>
                            <option >Lorem ipsum</option>
                            </select>
-                            </div>
-                            <div class="which">
-                                <p> <label for="option">which?</label></p>
-                                <select id="option" name="option">
+                        </div>
+                        <div class="which">
+                            <p> <label for="option">which?</label></p>
+                            <select id="option" name="option">
                                 <option disabled selected>Choose City</option>
                                 <option >Lorem ipsum</option>
                                 <option >Lorem ipsum</option>
                                 <option >Lorem ipsum</option>
                                 <option >Lorem ipsum</option>
                                 </select>
-                            </div>
-                            <div class="check-in">
-                                <p> <label for="date-one">check-in</label></p>
-                                <input id="date-one" type="date" value="date">
-                            </div>
-                            <div class="check-out">
-                                <p> <label for="date-two">check-out</label></p>
-                                <input id="date-two" type="date" value="date">
-                            </div>
-                            <div class="submit">
-                                <input type="submit" name="submit" value="search">
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="check-in">
+                            <p> <label for="date-one">check-in</label></p>
+                            <input id="date-one" type="date" value="date">
+                        </div>
+                        <div class="check-out">
+                            <p> <label for="date-two">check-out</label></p>
+                            <input id="date-two" type="date" value="date">
+                        </div>
+                        <div class="submit">
+                            <input type="submit" name="submit" value="search">
+                        </div>
+                    </form>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
     <section class="populer">
         <div class="container">
@@ -298,6 +300,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+        </div>
     </section>
     <section class="see">
         <div class="container">
@@ -358,8 +363,7 @@
         </div>
 
     </section>
-    <section class="honeymoon">
-        <a name="honeymoon-marker"></a>
+    <section id="honeymoon-marker" class="honeymoon">
         <div class="container">
             <div class="about-honeymoon">
                 <h2>Destinations for Honeymoon</h2>
@@ -567,8 +571,7 @@
             </div>
         </div>
     </section>
-    <section class="descriptin">
-        <a name="descriptin-marker"></a>
+    <section id="descriptin-marker" class="descriptin">
         <div class="container">
             <div class="descriptin-discount">
                 <p><span>50%</span> OFF Discount 10-30% Off</p>
@@ -619,56 +622,59 @@
                     </div>
                 </div>
             </div>
-            <div class="slide-hurry">
-                <div>
-                    <div class="slider-hurry">
-                        <div class="slide-sale">
-                            <img src="./media/moutain-inbanff-national-park-img.jpg" alt="national park img">
-                        </div>
-                        <div class="hurry-sale">
-                            <h3>Italy (Rome)</h3>
-                            <p><img src="./media/3day2hight-icon.png" alt="decoration img"> 3 Days 2 Night</p>
-                            <p><img src="./media/3day2hight-icon.png" alt="decoration img">Visit most 4 populer place</p>
-                            <p>$1500</p>
-                        </div>
-                        <div class="get-ticket">
-                            <button><span>&rarr;</span>Get ticket</button>
-                        </div>
+
+    </section>
+    <section class="promo-slide">
+        <div class="slide-hurry">
+            <div>
+                <div class="slider-hurry">
+                    <div class="slide-sale">
+                        <img src="./media/moutain-inbanff-national-park-img.jpg" alt="national park img">
                     </div>
-                </div>
-                <div>
-                    <div class="slider-hurry">
-                        <div class="slide-sale">
-                            <img src="./media/5slade1.jpg" alt="national park img">
-                        </div>
-                        <div class="hurry-sale">
-                            <h3>Switzerland</h3>
-                            <p><img src="./media/3day2hight-icon.png" alt="decoration img"> 3 Days 2 Night</p>
-                            <p><img src="./media/3day2hight-icon.png" alt="decoration img">Visit most 4 populer place</p>
-                            <p>$1700</p>
-                        </div>
-                        <div class="get-ticket">
-                            <button><span>&rarr;</span>Get ticket</button>
-                        </div>
+                    <div class="hurry-sale">
+                        <h3>Italy (Rome)</h3>
+                        <p><img src="./media/3day2hight-icon.png" alt="decoration img"> 3 Days 2 Night</p>
+                        <p><img src="./media/3day2hight-icon.png" alt="decoration img">Visit most 4 populer place</p>
+                        <p>$1500</p>
                     </div>
-                </div>
-                <div>
-                    <div class="slider-hurry">
-                        <div class="slide-sale">
-                            <img src="./media/5slade.jpg" alt="national park img">
-                        </div>
-                        <div class="hurry-sale">
-                            <h3>Greece</h3>
-                            <p><img src="./media/3day2hight-icon.png" alt="decoration img"> 3 Days 2 Night</p>
-                            <p><img src="./media/3day2hight-icon.png" alt="decoration img">Visit most 4 populer place</p>
-                            <p>$1400</p>
-                        </div>
-                        <div class="get-ticket">
-                            <button><span>&rarr;</span>Get ticket</button>
-                        </div>
+                    <div class="get-ticket">
+                        <button><span>&rarr;</span>Get ticket</button>
                     </div>
                 </div>
             </div>
+            <div>
+                <div class="slider-hurry">
+                    <div class="slide-sale">
+                        <img src="./media/5slade1.jpg" alt="national park img">
+                    </div>
+                    <div class="hurry-sale">
+                        <h3>Switzerland</h3>
+                        <p><img src="./media/3day2hight-icon.png" alt="decoration img"> 3 Days 2 Night</p>
+                        <p><img src="./media/3day2hight-icon.png" alt="decoration img">Visit most 4 populer place</p>
+                        <p>$1700</p>
+                    </div>
+                    <div class="get-ticket">
+                        <button><span>&rarr;</span>Get ticket</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="slider-hurry">
+                    <div class="slide-sale">
+                        <img src="./media/5slade.jpg" alt="national park img">
+                    </div>
+                    <div class="hurry-sale">
+                        <h3>Greece</h3>
+                        <p><img src="./media/3day2hight-icon.png" alt="decoration img"> 3 Days 2 Night</p>
+                        <p><img src="./media/3day2hight-icon.png" alt="decoration img">Visit most 4 populer place</p>
+                        <p>$1400</p>
+                    </div>
+                    <div class="get-ticket">
+                        <button><span>&rarr;</span>Get ticket</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="big-deal">
         <div class="container">
@@ -680,15 +686,17 @@
                     <input type="submit" value="submit" />
                 </form>
             </div>
-            <div class="video">
-                <video class="video-traveling" controls="controls">
-                   <source src=" ./media/WATCHING VIDEO.mp4 ">
-                </video>
-            </div>
+
         </div>
     </section>
-    <section class="blog">
-        <a name="blog-marker"></a>
+    <section class="promo-video">
+        <div class="video">
+            <video class="video-traveling" controls="controls">
+               <source src=" ./media/WATCHING VIDEO.mp4 ">
+            </video>
+        </div>
+    </section>
+    <section id="blog-marker" class="blog">
         <div class="container">
             <div class="look-blog">
                 <div>
@@ -826,8 +834,7 @@
             </div>
         </div>
     </section>
-    <footer>
-        <a name="footer-marker"></a>
+    <footer id="footer-marker">
         <div class="container">
             <div class="footer-menu">
                 <div>

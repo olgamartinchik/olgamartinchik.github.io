@@ -1,10 +1,19 @@
 'use strict';
 
-window.onscroll = function() {
-    var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-    document.getElementById('header-menu').style.backgroundColor = scrolled == 0 ? "rergba(0, 0, 0, 0.081)" : "rgba(0, 0, 0, 0.251)";
-}
+var num = 50;
 
+$(window).bind('scroll', function() {
+    if ($(window).scrollTop() > num) {
+        $('.header-bottom').addClass('fixed');
+    } else {
+        $('.header-bottom').removeClass('fixed');
+    }
+});
+
+
+
+
+// tads
 function Tabs() {
     var bindAll = function() {
         var menuElements = document.querySelectorAll('[data-tab]');
@@ -34,6 +43,7 @@ function Tabs() {
 
 var connectTabs = new Tabs();
 
+// slider
 $(document).ready(function() {
     $('.slider-place').slick({
         infinite: true,
@@ -64,18 +74,15 @@ $(document).ready(function() {
         ]
     });
 
-
     $('.slide-norway').slick({
         arrows: true,
         dots: true,
-        // nextArrow: ' <i class="slick-next fa-chevron-right"></i>',
-        // prevArrow: '<i class="slick-prev fa-chevron-left"></i>',
         loop: true,
         responsive: [{
                 breakpoint: 768,
                 settings: {
                     arrows: true,
-                    centerMode: true,
+                    // centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
                 }
@@ -93,26 +100,40 @@ $(document).ready(function() {
     });
 
 });
-$(document).ready(function() {
-    $('.slide-honeymoon').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        // autoplay: true,
-        autoplaySpeed: 4000,
-        arrows: false,
-        dots: true,
-    });
 
+$('.slide-honeymoon').slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    // autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    dots: true,
+    responsive: [{
+            breakpoint: 1024,
+            settings: {
+                arrows: false,
+                // centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }
+    ]
 });
-$(document).ready(function() {
-    $('.slider-descriptin').slick({
-        // slidesToShow: 1,
-        arrows: true,
-        dots: false,
-    });
+
+$('.slider-descriptin').slick({
+    // slidesToShow: 1,
+    arrows: true,
+    dots: false,
 });
-
-
 
 $('.slide-hurry').slick({
     arrows: true,

@@ -1,4 +1,13 @@
 'use strict';
+(function($) {
+    $(window).on("load", function() {
+        $("html").mCustomScrollbar();
+    });
+})(jQuery);
+
+$('.gamburger').click(function() {
+    $('.menu').toggleClass('menu-active');
+});
 
 var num = 50;
 
@@ -57,20 +66,22 @@ $(document).ready(function() {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
+                    dots: false,
                     centerMode: true,
-                    centerPadding: '40px',
+                    centerPadding: '20px',
                     slidesToShow: 1
                 }
             },
-            // {
-            //     breakpoint: 480,
-            //     settings: {
-            //         arrows: false,
-            //         centerMode: true,
-            //         centerPadding: '40px',
-            //         slidesToShow: 1
-            //     }
-            // }
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    dots: false,
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 1
+                }
+            }
         ]
     });
 
@@ -83,16 +94,18 @@ $(document).ready(function() {
                 settings: {
                     arrows: true,
                     // centerMode: true,
-                    centerPadding: '40px',
+                    // centerPadding: '40px',
                     slidesToShow: 1
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    arrows: true,
-                    centerMode: true,
-                    centerPadding: '40px',
+                    arrows: false,
+                    dots: true,
+                    loop: false,
+                    // centerMode: false,
+                    // centerPadding: '20px',
                     slidesToShow: 1
                 }
             }
@@ -121,8 +134,9 @@ $('.slide-honeymoon').slick({
             breakpoint: 768,
             settings: {
                 arrows: false,
+                dots: false,
                 centerMode: true,
-                centerPadding: '40px',
+                centerPadding: '20px',
                 slidesToShow: 1
             }
         }

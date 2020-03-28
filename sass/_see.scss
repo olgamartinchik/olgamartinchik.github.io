@@ -53,6 +53,7 @@
 .country {
     width: 470px;
     height: 205px;
+    // height: 166px;
     border-radius: 5px;
     box-shadow: 0px 1px 21px 0px rgba(50, 50, 50, 0.4);
     background-color: #fbfbfb74;
@@ -61,6 +62,7 @@
     margin-right: auto;
     position: relative;
     margin-top: -100px;
+    margin-bottom: 27px;
 }
 
 .country-footer {
@@ -143,4 +145,8 @@
 
 .slick-dotted.slick-slider {
     margin-bottom: 30px;
+}
+
+.see .slick-dots {
+    bottom: 67px;
 }

@@ -34,7 +34,6 @@
          }
          ul {
              display: flex;
-             display: flex;
              flex-direction: row;
              justify-content: space-between;
              max-width: 180px;
@@ -102,4 +101,8 @@
          cursor: pointer;
          color: #fff;
      }
+ }
+ 
+ .footer-menu-mob {
+     display: none;
  }

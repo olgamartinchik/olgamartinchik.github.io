@@ -125,6 +125,12 @@
      cursor: pointer;
  }
  
+ //  burger
+ .mob-menu {
+     display: none;
+ }
+ 
+ //  section h1
  section .wr-about {
      height: 59vh;
  }
@@ -176,7 +182,9 @@
  }
  
  .button span {
+     vertical-align: middle;
      font-weight: 1000;
+     padding-right: 6px;
  }
  
  .table-header {

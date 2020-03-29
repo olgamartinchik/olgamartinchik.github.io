@@ -58,7 +58,7 @@ $(document).ready(function() {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 4000,
         arrows: false,
         dots: true,
@@ -66,6 +66,8 @@ $(document).ready(function() {
                 breakpoint: 1366,
                 settings: {
                     arrows: false,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 2
@@ -76,6 +78,8 @@ $(document).ready(function() {
                 settings: {
                     arrows: false,
                     centerMode: true,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
                     centerPadding: '40px',
                     slidesToShow: 2
                 }
@@ -85,6 +89,8 @@ $(document).ready(function() {
                 settings: {
                     arrows: false,
                     dots: false,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
                     centerMode: true,
                     centerPadding: '20px',
                     slidesToShow: 1
@@ -95,6 +101,8 @@ $(document).ready(function() {
                 settings: {
                     arrows: false,
                     dots: false,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
                     centerMode: true,
                     centerPadding: '20px',
                     slidesToShow: 1
@@ -111,8 +119,6 @@ $(document).ready(function() {
                 breakpoint: 768,
                 settings: {
                     arrows: true,
-                    // centerMode: true,
-                    // centerPadding: '40px',
                     slidesToShow: 1
                 }
             },
@@ -122,8 +128,6 @@ $(document).ready(function() {
                     arrows: false,
                     dots: true,
                     loop: false,
-                    // centerMode: false,
-                    // centerPadding: '20px',
                     slidesToShow: 1
                 }
             }
@@ -135,7 +139,7 @@ $(document).ready(function() {
 $('.slide-honeymoon').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 4000,
     arrows: false,
     dots: true,
@@ -143,6 +147,8 @@ $('.slide-honeymoon').slick({
             breakpoint: 1366,
             settings: {
                 arrows: false,
+                autoplay: true,
+                autoplaySpeed: 4000,
                 centerMode: true,
                 centerPadding: '40px',
                 slidesToShow: 2
@@ -152,6 +158,8 @@ $('.slide-honeymoon').slick({
             breakpoint: 1024,
             settings: {
                 arrows: false,
+                autoplay: true,
+                autoplaySpeed: 4000,
                 centerMode: true,
                 centerPadding: '40px',
                 slidesToShow: 2
@@ -162,6 +170,8 @@ $('.slide-honeymoon').slick({
             settings: {
                 arrows: false,
                 dots: false,
+                autoplay: true,
+                autoplaySpeed: 4000,
                 centerMode: true,
                 centerPadding: '20px',
                 slidesToShow: 1
@@ -172,6 +182,8 @@ $('.slide-honeymoon').slick({
             settings: {
                 arrows: false,
                 dots: false,
+                autoplay: true,
+                autoplaySpeed: 4000,
                 centerMode: true,
                 centerPadding: '10px',
                 slidesToShow: 1

@@ -1857,8 +1857,34 @@ footer .container {
     background-color: #fafafa;
   }
 
+  form select,
+input {
+    width: 160px;
+    height: 50px;
+    border: 1px solid #5f5d5d;
+    padding-left: 30px;
+    margin-bottom: 9px;
+  }
+
   .container-blog {
     width: 280px;
+  }
+
+  .blog-data {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 30px;
+  }
+
+  .blog-about {
+    color: #000;
+    max-width: 290px;
+    padding: 7px 30px;
+    height: 153px;
+  }
+
+  .blog-icon {
+    padding-top: 30px;
   }
 
   footer .container {
@@ -2558,6 +2584,11 @@ input {
     display: flex;
     justify-content: center;
   }
+  .mob-menu i {
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+  }
 
   .gamburger {
     border: none;
@@ -2772,7 +2803,7 @@ input {
 input {
     width: 130px;
     height: 30px;
-    border: none;
+    border: 1px solid #9f9898;
     padding-left: 5px;
     margin-bottom: 3px;
   }
@@ -3212,6 +3243,11 @@ input {
     display: flex;
     justify-content: center;
   }
+  .mob-menu i {
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+  }
 
   .gamburger {
     border: none;
@@ -3420,7 +3456,7 @@ input {
 input {
     width: 130px;
     height: 30px;
-    border: none;
+    border: 1px solid #9f9898;
     padding-left: 5px;
     margin-bottom: 3px;
   }
@@ -3855,6 +3891,11 @@ input {
     display: flex;
     justify-content: center;
   }
+  .mob-menu i {
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+  }
 
   .gamburger {
     border: none;
@@ -4063,7 +4104,7 @@ input {
 input {
     width: 130px;
     height: 30px;
-    border: none;
+    border: 1px solid #9f9898;
     padding-left: 5px;
     margin-bottom: 3px;
   }
@@ -4497,6 +4538,11 @@ input {
     display: flex;
     justify-content: center;
   }
+  .mob-menu i {
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+  }
 
   .gamburger {
     border: none;
@@ -4705,7 +4751,7 @@ input {
 input {
     width: 130px;
     height: 30px;
-    border: none;
+    border: 1px solid #9f9898;
     padding-left: 5px;
     margin-bottom: 3px;
   }

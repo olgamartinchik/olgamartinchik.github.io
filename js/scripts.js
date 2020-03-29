@@ -1,7 +1,7 @@
 'use strict';
 (function($) {
     $(window).on("load", function() {
-        $("html").mCustomScrollbar();
+        // $("html").mCustomScrollbar();
     });
 })(jQuery);
 
@@ -140,7 +140,7 @@ $('.slide-honeymoon').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     arrows: false,
     dots: true,
     responsive: [{
@@ -148,7 +148,7 @@ $('.slide-honeymoon').slick({
             settings: {
                 arrows: false,
                 autoplay: true,
-                autoplaySpeed: 4000,
+                autoplaySpeed: 3000,
                 centerMode: true,
                 centerPadding: '40px',
                 slidesToShow: 2
@@ -159,7 +159,7 @@ $('.slide-honeymoon').slick({
             settings: {
                 arrows: false,
                 autoplay: true,
-                autoplaySpeed: 4000,
+                autoplaySpeed: 3000,
                 centerMode: true,
                 centerPadding: '40px',
                 slidesToShow: 2
@@ -171,7 +171,7 @@ $('.slide-honeymoon').slick({
                 arrows: false,
                 dots: false,
                 autoplay: true,
-                autoplaySpeed: 4000,
+                autoplaySpeed: 3000,
                 centerMode: true,
                 centerPadding: '20px',
                 slidesToShow: 1
@@ -183,7 +183,7 @@ $('.slide-honeymoon').slick({
                 arrows: false,
                 dots: false,
                 autoplay: true,
-                autoplaySpeed: 4000,
+                autoplaySpeed: 3000,
                 centerMode: true,
                 centerPadding: '10px',
                 slidesToShow: 1

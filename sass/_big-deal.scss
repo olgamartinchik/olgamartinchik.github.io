@@ -9,6 +9,7 @@
     align-items: center;
     position: relative;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 form {
@@ -77,6 +78,10 @@ form {
     margin: auto;
     background-size: contain;
     background-position: center;
+}
+
+.playpause:hover {
+    cursor: pointer;
 }
 
 .video span {

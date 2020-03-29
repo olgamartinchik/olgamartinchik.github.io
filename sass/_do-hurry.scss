@@ -142,20 +142,24 @@ button:hover {
     justify-content: space-between;
     box-sizing: border-box;
     margin: 35px;
+    div {
+        display: flex;
+        flex: none;
+    }
 }
 
 .slide-sale {
-    width: 360px;
+    max-width: 360px;
 }
 
 .slide-sale img {
     height: 300px;
-    width: 360px;
+    max-width: 360px;
 }
 
 .hurry-sale {
     height: 290px;
-    width: 420px;
+    max-width: 420px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -181,6 +185,15 @@ button:hover {
         font-family: opensans-semibold;
         color: #fbad03;
     }
+    img {
+        padding-right: 10px;
+    }
+}
+
+.get-ticket {
+    transform: rotate(-90deg);
+    position: relative;
+    left: 84px;
 }
 
 .get-ticket button {
@@ -193,15 +206,18 @@ button:hover {
     font-family: opensans-bold;
     background-color: #fcbd35;
     color: #fff;
-    transform: rotate(-90deg);
 }
 
-.slide-hurry.slick-next {
+.get-ticket span {
+    padding-right: 5px;
+}
+
+.promo-slide.slick-next {
     right: -100px;
 }
 
-.slide-hurry.slick-prev {
-    right: -100px;
+.promo-slide.slick-prev {
+    left: -100px;
 }
 
 .mob-img {

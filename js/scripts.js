@@ -63,6 +63,24 @@ $(document).ready(function() {
         arrows: false,
         dots: true,
         responsive: [{
+                breakpoint: 1366,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+            },
+            {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
@@ -122,10 +140,19 @@ $('.slide-honeymoon').slick({
     arrows: false,
     dots: true,
     responsive: [{
+            breakpoint: 1366,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 2
+            }
+        },
+        {
             breakpoint: 1024,
             settings: {
                 arrows: false,
-                // centerMode: true,
+                centerMode: true,
                 centerPadding: '40px',
                 slidesToShow: 2
             }
@@ -137,6 +164,16 @@ $('.slide-honeymoon').slick({
                 dots: false,
                 centerMode: true,
                 centerPadding: '20px',
+                slidesToShow: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                dots: false,
+                centerMode: true,
+                centerPadding: '10px',
                 slidesToShow: 1
             }
         }

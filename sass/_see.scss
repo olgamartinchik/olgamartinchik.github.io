@@ -123,12 +123,14 @@
 .slick-prev:hover,
 .slick-prev:focus {
     background-image: url("../media/slider-left-btn.png");
+    box-shadow: none;
 }
 
 .slick-next,
 .slick-next:hover,
 .slick-next:focus {
     background-image: url("../media/slider-right-btn.png");
+    box-shadow: none;
 }
 
 .slick-prev {

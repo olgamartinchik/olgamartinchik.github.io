@@ -52,12 +52,40 @@ form {
 
 .video {
     margin: 0 auto;
-    display: flex;
+    display: table;
+    width: auto;
     position: relative;
-    // bottom: 165px;
     video {
         margin: 0 auto;
         max-width: 630px;
         max-height: 330px;
     }
+}
+
+.video-traveling {
+    // position: relative;
+}
+
+.playpause {
+    background-image: url("../media/watching-video.png");
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+}
+
+.video span {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: opensans-semibold;
+    position: relative;
+    left: 66px;
+    width: 183px;
+    display: flex;
+    bottom: -8px;
 }

@@ -256,3 +256,19 @@ function initializeClock(id, endtime) {
 var deadline = "January 01 2030 00:00:00 GMT+0300";
 var deadline = new Date(Date.parse(new Date()) + 365 * 24 * 60 * 60 * 1000); // for endless timer
 initializeClock('countdown', deadline);
+
+// video
+$('.video-traveling').parent().click(function() {
+
+    if ($(this).children(".video-traveling").get(0).paused) {
+        $(this).children(".video-traveling").get(0).play();
+        $(this).children(".playpause").fadeOut();
+
+    } else {
+        $(this).children(".video-traveling").get(0).pause();
+
+        $(this).children(".playpause").fadeIn();
+
+    }
+
+});

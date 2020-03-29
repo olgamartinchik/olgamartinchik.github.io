@@ -889,13 +889,38 @@ form input:nth-child(4) {
 
 .video {
   margin: 0 auto;
-  display: flex;
+  display: table;
+  width: auto;
   position: relative;
 }
 .video video {
   margin: 0 auto;
   max-width: 630px;
   max-height: 330px;
+}
+
+.playpause {
+  background-image: url("../media/watching-video.png");
+  background-repeat: no-repeat;
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+
+.video span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: opensans-semibold;
+  position: relative;
+  left: 66px;
+  width: 183px;
+  display: flex;
+  bottom: -8px;
 }
 
 .blog .container {
@@ -949,10 +974,17 @@ form input:nth-child(4) {
   font-size: 20px;
   font-family: opensans-regular;
 }
+.blog-about h3:hover {
+  color: #fbb212;
+  text-decoration: underline;
+}
 .blog-about p {
   font-size: 15px;
   font-family: opensans-light;
   line-height: 2;
+}
+.blog-about p:hover {
+  text-decoration: underline;
 }
 
 .blog-icon ul {
@@ -1046,9 +1078,9 @@ form input:nth-child(4) {
 }
 
 .descriptin-discount button:hover {
-  width: 142px;
-  height: 42px;
-  font-size: 16px;
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
   box-shadow: -1px -8px 17px 0px rgba(50, 50, 50, 0.39);
 }
 
@@ -1275,6 +1307,18 @@ button:hover {
 
 .promo-slide.slick-prev {
   left: -100px;
+}
+
+.slick-prev,
+.slick-prev:hover,
+.slick-prev:focus {
+  box-shadow: none;
+}
+
+.slick-next,
+.slick-next:hover,
+.slick-next:focus {
+  box-shadow: none;
 }
 
 .mob-img {
@@ -1510,6 +1554,9 @@ footer .container {
 .offer p:nth-child(5) {
   padding-left: 5px;
   padding-right: 5px;
+}
+.offer img {
+  padding-right: 6px;
 }
 .offer button {
   height: 30px;
@@ -1770,6 +1817,10 @@ footer .container {
   border-right: 1px solid #ffdd00;
   height: 16px;
   padding: 11px;
+}
+
+.social-norway a:hover {
+  color: #878080;
 }
 
 .social-norway a:last-child {
@@ -2296,9 +2347,13 @@ input {
   }
   .offer button {
     font-size: 12px;
+    height: 20px;
+    width: 100%;
   }
   .offer button:hover {
     height: 20px;
+    font-size: 12px;
+    width: 100%;
   }
 
   .descriptin .container {
@@ -2964,9 +3019,13 @@ input {
   }
   .offer button {
     font-size: 12px;
+    height: 20px;
+    width: 100%;
   }
   .offer button:hover {
     height: 20px;
+    font-size: 12px;
+    width: 100%;
   }
 
   .descriptin .container {
@@ -3616,9 +3675,13 @@ input {
   }
   .offer button {
     font-size: 12px;
+    height: 20px;
+    width: 100%;
   }
   .offer button:hover {
     height: 20px;
+    font-size: 12px;
+    width: 100%;
   }
 
   .descriptin .container {
@@ -4263,9 +4326,13 @@ input {
   }
   .offer button {
     font-size: 12px;
+    height: 20px;
+    width: 100%;
   }
   .offer button:hover {
     height: 20px;
+    font-size: 12px;
+    width: 100%;
   }
 
   .descriptin .container {
@@ -4910,9 +4977,13 @@ input {
   }
   .offer button {
     font-size: 12px;
+    height: 20px;
+    width: 100%;
   }
   .offer button:hover {
     height: 20px;
+    font-size: 12px;
+    width: 100%;
   }
 
   .descriptin .container {

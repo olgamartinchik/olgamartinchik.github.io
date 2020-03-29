@@ -51,10 +51,17 @@
         font-size: 20px;
         font-family: opensans-regular;
     }
+    h3:hover {
+        color: #fbb212;
+        text-decoration: underline;
+    }
     p {
         font-size: 15px;
         font-family: opensans-light;
         line-height: 2;
+    }
+    p:hover {
+        text-decoration: underline
     }
 }
 
